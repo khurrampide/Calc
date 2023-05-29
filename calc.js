@@ -2,9 +2,7 @@ const ps = require('prompt-sync');
 const prompt = ps({ sigint: true });
 
 function calculator() {
-    console.clear();
-    
-    
+    console.clear();  
     console.log("Welcome to the Calculator");
     let n1 = Number(prompt("Enter First Number: "));
     let n2 = Number(prompt("Enter Second Number: "));
